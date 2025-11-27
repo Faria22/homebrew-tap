@@ -1,8 +1,8 @@
 class Aliasmgr < Formula
   desc "CLI alias manager, written in Rust"
   homepage "https://github.com/Faria22/aliasmgr"
-  url "https://github.com/Faria22/aliasmgr/archive/refs/tags/v0.4.0.tar.gz"
-  sha256 "978e09614445dccf091fdb595589e02f90590a58bf71a207a8f638280a7b670e"
+  url "https://github.com/Faria22/aliasmgr/archive/refs/tags/v0.5.0.tar.gz"
+  sha256 "189c0e5aef8fb8d78849ba2ad2d2b01f76b9c29374a66ef3c76801a72d3e3386"
   license "MIT"
 
   depends_on "rust" => :build
