@@ -13,7 +13,7 @@ class Aliasmgr < Formula
 
   test do
     system bin/"aliasmgr", "init", "bash"
-    system bin/"aliasmgr", "add", "alias", "ll", "ls -la"
+    system bin/"aliasmgr", "add", "ll", "ls -la"
     assert_match 'll = "ls -la"', File.read(testpath/".config/aliasmgr/aliases.toml")
   end
 end
